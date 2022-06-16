@@ -8,6 +8,8 @@ import { AppService } from './app.service';
 import { UserEntity } from './users/entities/user.entity';
 import { UsersModule } from './users/users.module';
 import { AuthModule } from './auth/auth.module';
+import { PostsModule } from './posts/posts.module';
+import { PostEntity } from './posts/entities/post.entity';
 
 @Module({
     imports: [
@@ -28,7 +30,7 @@ import { AuthModule } from './auth/auth.module';
                     username: configService.get('DB_USERNAME'),
                     password: configService.get('DB_PASSWORD'),
                     database: configService.get('DB_DATABASE'),
-                    entities: [UserEntity],
+                    entities: [UserEntity, PostEntity],
                     synchronize: true,
                 };
             },
@@ -37,6 +39,8 @@ import { AuthModule } from './auth/auth.module';
         UsersModule,
 
         AuthModule,
+
+        PostsModule,
     ],
     controllers: [AppController],
     providers: [
