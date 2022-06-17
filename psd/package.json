@@ -9,9 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/open-sans": "^4.5.10",
+    "@fontsource/poppins": "^4.5.8",
+    "@mantine/core": "^4.2.9",
+    "@mantine/dates": "^4.2.9",
+    "@mantine/dropzone": "^4.2.9",
+    "@mantine/form": "^4.2.9",
+    "@mantine/hooks": "^4.2.9",
+    "@mantine/modals": "^4.2.9",
+    "@mantine/next": "^4.2.9",
+    "@mantine/notifications": "^4.2.9",
+    "@mantine/prism": "^4.2.9",
+    "@mantine/rte": "^4.2.9",
+    "@mantine/spotlight": "^4.2.9",
+    "dayjs": "^1.11.3",
     "next": "12.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tabler-icons-react": "^1.49.0"
   },
   "devDependencies": {
     "eslint": "8.17.0",
