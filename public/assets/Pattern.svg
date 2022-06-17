@@ -1,0 +1,42 @@
+<svg width="960" height="480" viewBox="0 0 960 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="240" y="240" width="240" height="240" transform="rotate(-90 240 240)" fill="#00A3FF"/>
+<path d="M360 30C310.294 30 270 70.2944 270 120C270 169.706 310.294 210 360 210" stroke="white" stroke-width="4"/>
+<circle cx="360" cy="120" r="60" transform="rotate(-90 360 120)" fill="#BBBBBB"/>
+<path d="M360 60C393.137 60 420 86.8629 420 120H300C300 86.8629 326.863 60 360 60Z" fill="white"/>
+<rect x="240" y="240" width="240" height="240" transform="rotate(90 240 240)" fill="#BBBBBB"/>
+<path d="M0 300L0 240H60L0 300Z" fill="#00A3FF"/>
+<path d="M0 360L0 300H60L0 360Z" fill="#00A3FF"/>
+<path d="M0 420L0 360H60L0 420Z" fill="#00A3FF"/>
+<path d="M0 480L0 420H60L0 480Z" fill="#00A3FF"/>
+<path d="M240 300V240H180L240 300Z" fill="#00A3FF"/>
+<path d="M240 360V300H180L240 360Z" fill="#00A3FF"/>
+<path d="M240 420V360H180L240 420Z" fill="#00A3FF"/>
+<path d="M240 480V420H180L240 480Z" fill="#00A3FF"/>
+<rect y="240" width="240" height="240" transform="rotate(-90 0 240)" fill="white"/>
+<path d="M120 30C70.2944 30 30 70.2944 30 120C30 169.706 70.2944 210 120 210" stroke="#BBBBBB" stroke-width="4"/>
+<circle cx="120" cy="120" r="60" transform="rotate(-90 120 120)" fill="#00A3FF"/>
+<rect x="77.5736" y="120" width="60" height="60" transform="rotate(-45 77.5736 120)" fill="white"/>
+<rect width="240" height="240" transform="matrix(0 -1 -1 0 480 480)" fill="white"/>
+<path d="M360 270C409.706 270 450 310.294 450 360C450 409.706 409.706 450 360 450" stroke="#BBBBBB" stroke-width="4"/>
+<circle r="60" transform="matrix(0 -1 -1 0 360 360)" fill="#00A3FF"/>
+<path d="M360 300C326.863 300 300 326.863 300 360H420C420 326.863 393.137 300 360 300Z" fill="white"/>
+<rect x="480" y="240" width="240" height="240" fill="#00A3FF"/>
+<path d="M690 360C690 310.294 649.706 270 600 270C550.294 270 510 310.294 510 360" stroke="white" stroke-width="4"/>
+<circle cx="600" cy="360" r="60" fill="white"/>
+<rect x="480" y="240" width="240" height="240" transform="rotate(-90 480 240)" fill="white"/>
+<path d="M600 30C550.294 30 510 70.2944 510 120C510 169.706 550.294 210 600 210" stroke="#BBBBBB" stroke-width="4"/>
+<circle cx="600" cy="120" r="60" transform="rotate(-90 600 120)" fill="#00A3FF"/>
+<rect width="240" height="240" transform="matrix(0 -1 -1 0 960 480)" fill="white"/>
+<path d="M840 270C889.706 270 930 310.294 930 360C930 409.706 889.706 450 840 450" stroke="white" stroke-width="4"/>
+<circle r="60" transform="matrix(0 -1 -1 0 840 360)" fill="#00A3FF"/>
+<path d="M840 300C806.863 300 780 326.863 780 360H900C900 326.863 873.137 300 840 300Z" fill="#BBBBBB"/>
+<rect width="240" height="240" transform="matrix(0 1 1 0 720 0)" fill="white"/>
+<path d="M960 60V0L900 0L960 60Z" fill="#00A3FF"/>
+<path d="M960 120V60L900 60L960 120Z" fill="#00A3FF"/>
+<path d="M960 180V120H900L960 180Z" fill="#00A3FF"/>
+<path d="M960 240V180H900L960 240Z" fill="#00A3FF"/>
+<path d="M720 60V0L780 0L720 60Z" fill="#00A3FF"/>
+<path d="M720 120V60L780 60L720 120Z" fill="#00A3FF"/>
+<path d="M720 180V120H780L720 180Z" fill="#00A3FF"/>
+<path d="M720 240V180H780L720 240Z" fill="#00A3FF"/>
+</svg>
