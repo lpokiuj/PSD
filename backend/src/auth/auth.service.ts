@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { BadRequestException, Injectable } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import { compare, hash } from 'bcrypt';
 import { UserEntity } from 'src/users/entities/user.entity';
@@ -34,6 +34,9 @@ export class AuthService {
 
     async validateUser(email: string, password: string) {
         const user = await this.userService.getByEmail(email);
+        if(!user){
+            throw new BadRequestException();
+        }
         const isValidPassword = await compare(password, user.password);
         return isValidPassword ? user : null;
     }

@@ -1,5 +1,5 @@
 {
-  "name": "psd",
+  "name": "frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -22,7 +22,9 @@
     "@mantine/prism": "^4.2.9",
     "@mantine/rte": "^4.2.9",
     "@mantine/spotlight": "^4.2.9",
+    "@radix-ui/react-icons": "^1.1.1",
     "dayjs": "^1.11.3",
+    "joi": "^17.6.0",
     "next": "12.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
